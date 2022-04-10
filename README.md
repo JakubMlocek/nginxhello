@@ -7,8 +7,8 @@
 ## Usage Examples
 * Firstly we need to initialize terraform directory: `terraform init`
 * To run module with default setting: `terraform apply`
-* To run module with custom Docker image: `terraform apply -var "docker_image=NAME_OF__DESIRE_DOCKER_IMAGE"`
+* To run module with custom Docker image: `terraform apply -var "docker_image=NAME_OF_DESIRE_DOCKER_IMAGE"`
 * To run module with custom Port: `terraform apply -var "port=VALUE_OF_DESIRE_PORT"`
 * To run module with both custom Docker image and custom port:
-`terraform apply -var "docker_image=NAME_OF__DESIRE_DOCKER_IMAGE"  -var "port=VALUE_OF_DESIRE_PORT"`
+`terraform apply -var "docker_image=NAME_OF_DESIRE_DOCKER_IMAGE"  -var "port=VALUE_OF_DESIRE_PORT"`
 
