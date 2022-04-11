@@ -3,6 +3,7 @@
 * Simple Dockerfile helo world project serving static HTML page using nginx. Docker image of this project: [jakmlo/nginxhello](https://hub.docker.com/repository/docker/jakmlo/nginxhello). 
 * Project has a makefile which combines building and pushing an Docker image.
 * Terraform module allows running container on local machine. It accepts as input variable of a Docker image and port on which website should be accesible on localhost. Default image is jakmlo/nginxhello and default port is set to 8081.
+* Tests written in GoLang checks whether the server is configred correctly.
 
 
 ## Usage Examples
